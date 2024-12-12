@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    transition: all 2s ease-in-out; /* Correctly define the transition */
+}
+
+form.expanded {
+    width: 300px; /* Example of a transitionable property */
+}
